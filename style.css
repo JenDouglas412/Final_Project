@@ -5,7 +5,7 @@ display: flex;
 justify-content: center;
 align-content: space-between;
 flex-flow: wrap;
-margin: 0%;
+margin-bottom: 15px;
 
 }
 
@@ -14,10 +14,10 @@ nav {
     font-weight: bold;
     font-size: 30px;
     color: rgb(172, 5, 74);
-    padding: 40px; 
+    padding: 70px; 
     width: 50%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
 }
 
@@ -59,20 +59,21 @@ ul {
 display: flex;
 justify-content: center;
 flex-wrap: wrap
-padding: 10px;
+padding: 30px;
 align-content: center;
   }
 
   footer {
     background-color: rgb(172, 5, 74);
-    height: fit-content;
     display: flex;
     justify-content: center;
-    align-content: space-between;
+    align-content: center;
     flex-flow: wrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
+    padding: 10px;
     float: inline-end;
+    margin-top: 15px;
+    color: antiquewhite;
 
   }
 
@@ -83,16 +84,30 @@ align-content: center;
     color: rgb(63, 5, 29);
   }
 
-  .drinks {
+  .drinks1 {
       background-color: rgba(216, 191, 216, 0.363);
       max-width: 100%;
-      padding: 20px;
-      margin: 15px;
+      padding: 10px;
+      margin: 10px;
       display: flex;
       justify-content: left;
       align-items: center;
-
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(241, 239, 63);
   }
+
+  .drinks2 {
+    background-color: rgba(216, 191, 216, 0.363);
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(241, 239, 63);
+}
+
 
   p {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -104,16 +119,53 @@ align-content: center;
 
 .about {
     display: flex ;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: 30px;
 }
 
 .drink1 {
-    max-width: 15%;
+    max-width: 25%;
     padding: 15px
 }
 
 .addons {
-display: flex;
-text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+  padding: 5px;
+ 
+
+}
+
+#directions { 
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+  text-align: center;
+}
+
+#story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: larger;
+width:auto;
+}
+
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  max-width: 500px;
+
 
 }
